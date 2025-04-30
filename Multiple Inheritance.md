@@ -36,20 +36,16 @@ To write a Python program to get the name, attendance, and ID of a student and c
 # Reg No : 212223050032
 
 class Person:  
-    #defining constructor  
     def __init__(self, personName, personAge):  
         self.name = personName  
         self.age = personAge  
   
-    #defining class methods  
     def showName(self):  
         print(self.name)  
   
     def showAge(self):  
         print(self.age)  
-  
-    #end of class definition  
-  
+   
 class Student:
     def __init__(self, studentpercent):  
         self.studentpercent = studentpercent  
